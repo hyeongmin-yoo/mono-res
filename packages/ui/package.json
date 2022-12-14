@@ -1,5 +1,5 @@
 {
-  "name": "@foo/ui",
+  "name": "ui",
   "version": "0.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -9,8 +9,7 @@
     "bsconfig.json"
   ],
   "scripts": {
-    "res": "rescript build -w",
-    "lint": "TIMING=1 eslint \"**/*.ts*\""
+    "res": "rescript build -w"
   },
   "devDependencies": {
     "@rescript/react": "^0.10.3",

@@ -15,5 +15,6 @@
   ],
   "suffix": ".mjs",
   "ppx-flags": [],
-  "bs-dependencies": ["@rescript/react", "@foo/ui"]
+  "bs-dependencies": ["@rescript/react", "ui"],
+  "pinned-dependencies": ["ui"]
 }

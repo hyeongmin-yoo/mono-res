@@ -5,14 +5,11 @@ var Button;
 
 var emoji = "🙏";
 
-var name = "UI";
-
-var name3 = "33";
+var buttonName2 = "BUTTON-2";
 
 export {
   Button ,
   emoji ,
-  name ,
-  name3 ,
+  buttonName2 ,
 }
 /* No side effect */

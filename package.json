@@ -7,13 +7,14 @@
     "packages/*"
   ],
   "scripts": {
-    "res": "yarn workspaces foreach -vpi run res",
+    "res": "chokidar \"packages/**/*.res\" -c \"yarn apps/web run res\" --initial",
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "chokidar-cli": "^3.0.0",
     "turbo": "latest"
   },
   "engines": {
